@@ -30,7 +30,34 @@ For the simplicity, I didn't use any state management library like `redux`, I on
 - Please create the database before running the backend project, and there's no mock data for the database, need to create it through the wen page manually.
 - I didn't implement any RBAC feature, so there's no login API and page, anyone can be the admin to create new employee and assign the performance review.
 
+### How to run
+
+#### prerequisite
+
+- please install `postgreSQL 9.6` and create the database called: `paypay`, before running the backend service.
+- node version: `10.14.0`
+
+#### backend
+
+```
+git clone git@github.com:VictorKid/FullStackEngineerChallenge.git
+cd backend
+yarn or npm i
+yarn start or npm start
+```
+
+#### frontend
+
+```
+git clone git@github.com:VictorKid/FullStackEngineerChallenge.git
+cd frontend
+yarn or npm i
+yarn start or npm start
+```
+
 ### Demo
+
+![Demo](https://github.com/VictorKid/FullStackEngineerChallenge "Demo")
 
 # Full Stack Developer Challenge
 
