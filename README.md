@@ -1,11 +1,13 @@
 # Submission
 
+This is my resule of the challenge project please read through to see what I have done in this project, thanks for your time!
+
 ## Description
 
 - backend stacks used
 
-  - I use `node`` at the server side language express, postgresql, sequelize(orm)
-  - I choose `express`` as the http server framework
+  - I use `node` at the server side language express, postgresql, sequelize(orm)
+  - I choose `express` as the http server framework
   - I use `postgreSQL` as the database
   - I use `sequelize` as the ORM
 
@@ -18,6 +20,17 @@
 ### backend design
 
 I follow most of modern pattern with `src/index.js` as backend service entry point, with `routers` to centralized the routing management, and the separate `handlers` by feature to make the logics are easy to trace, I inject the `models` into `context`, in this case each `handler` can easily use the `models` to manipulate the db queries.
+
+### frontend design
+
+For the simplicity, I didn't use any state management library like `redux`, I only use `state`, `props`, `context` to manage the state change for the project. There're only two pages, I create the folder for each page, and for those components directly used by the page, I put them at same folder with the page. I also create a `components` folder to put common components used in this project. Finally there's `apis` folder that including all of API requests from client to server side.
+
+### Assumptions
+
+- Please create the database before running the backend project, and there's no mock data for the database, need to create it through the wen page manually.
+- I didn't implement any RBAC feature, so there's no login API and page, anyone can be the admin to create new employee and assign the performance review.
+
+### Demo
 
 # Full Stack Developer Challenge
 
