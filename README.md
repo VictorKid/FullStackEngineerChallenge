@@ -1,6 +1,6 @@
 # Submission
 
-This is my resule of the challenge project please read through to see what I have done in this project, thanks for your time!
+This is my result of the challenge project please read through to see what I have done in this project, thanks for your time!
 
 ## Description
 
@@ -57,7 +57,7 @@ yarn start or npm start
 
 ### Demo
 
-![Demo](https://github.com/VictorKid/FullStackEngineerChallenge "Demo")
+![Demo](https://github.com/VictorKid/FullStackEngineerChallenge/blob/master/demo.gif "Demo")
 
 # Full Stack Developer Challenge
 
